@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Lista de Contatos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação de lista de contatos construída com React e TypeScript. O objetivo foi implementar diversas maneiras de adicionar, editar e remover contatos. A lógica foi desenvolvida utilizando checkboxes para selecionar quais contatos devem ser editados ou removidos, e um formulário para adicionar novos contatos.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Adicionar Contato**: Preencha um formulário com os dados do contato e clique em "Adicionar" para inseri-lo na lista.
+- **Editar Contato**: Selecione um contato com a checkbox e clique em "Editar" para modificar os dados.
+- **Remover Contato**: Selecione um ou mais contatos e clique em "Remover" para excluí-los da lista.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: Biblioteca para construção da interface de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Styled Components**: Biblioteca para estilização de componentes em React, permitindo o uso de CSS dentro do JavaScript.
+- **Redux Toolkit**: Ferramenta para gerenciamento de estado da aplicação.
+- **Prettier**: Ferramenta de formatação de código para manter a consistência do estilo.
+- **ESLint**: Ferramenta de linting para identificar e corrigir problemas no código.
+- **.editorconfig**: Arquivo que ajuda a definir e manter estilos de codificação consistentes entre diferentes editores e IDEs.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+O projeto foi criado utilizando o `create-react-app`, portanto possui a seguinte estrutura de scripts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```json
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
+```
+## Como Executar o Projeto
 
-### `npm run build`
+1. Clone o repositório:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd lista-de-contatos
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
+## Dificuldades Encontradas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Durante o desenvolvimento do projeto, enfrentei algumas dificuldades que me ajudaram a praticar e melhorar minhas habilidades em:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Composição de componentes.**
+- **Implementação de rotas.**
+- **Manipulação do estado utilizando o Redux e o Redux Toolkit.**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuições
 
-### `npm run eject`
+Sinta-se à vontade para contribuir com o projeto! Se você encontrar bugs ou tiver sugestões de melhorias, abra uma **issue** ou envie um **pull request**.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
